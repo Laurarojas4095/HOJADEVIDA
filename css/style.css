@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #525659;
+}
+
+
+/* Formulario */
+
+#formulario {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    -webkit-box-shadow: -3px 2px 22px 4px rgba(148, 130, 148, 1);
+    -moz-box-shadow: -3px 2px 22px 4px rgba(148, 130, 148, 1);
+    box-shadow: -3px 2px 22px 4px rgba(148, 130, 148, 1);
+    background: white;
+}
+
+
+/* Header */
+
+header {
+    position: unset;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    border: 1px solid #525659;
+    border-radius: 15px;
+    border-right: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    box-shadow: 10px 10px 10px -6px rgb(34, 32, 34);
+    word-wrap: break-word;
+    height: auto;
+    width: 100%;
+    overflow: auto;
+}
+
+header img {
+    height: 150px;
+    display: block;
+    overflow: hidden;
+}
+
+header div.centrado {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+header div input {
+    width: 100%;
+    height: 20%;
+}
+
+
+/* Sección de datos personales */
+
+article div.container {
+    width: 100%;
+    margin-top: 1%;
+    display: inline-flex;
+    margin-bottom: 1%;
+}
+
+span.black-article {
+    background: rgb(19, 18, 18);
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    text-align: center;
+    width: 1.6em;
+}
+
+article div.linea-hr-article {
+    width: 5%;
+    color: blue;
+    display: block;
+    margin: auto;
+}
+
+article div.titulo-article {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+/* Container */
+
+.datos-container {
+    display: inherit;
+    border: 1px solid #525659;
+    border-radius: 15px;
+    border-right: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    box-shadow: 10px 10px 10px -6px rgb(34, 32, 34);
+    padding: 0.|5%;
+}
+
+.primera-fila,
+.segunda-fila,
+.tercera-fila,
+.cuarta-fila {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+}
+
+.primera-fila div,
+.segunda-fila div,
+.tercera-fila div {
+    flex: auto;
+    border-right: 0.5px solid #2c2c2c;
+}
+
+.primera-fila div p,
+.segunda-fila div p,
+.tercera-fila div p,
+.cuarta-fila div p {
+    font-size: 2vh;
+    margin-left: 1%;
+}
+
+.segunda-fila,
+.tercera-fila {
+    position: relative;
+    height: 60px;
+    border-top: 0.5px solid #2c2c2c;
+    border-bottom: 0.5px solid #2c2c2c;
+}
+
+.segunda-fila div.nacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+span.white-article {
+    border: 1px solid rgb(-19, -18, -18);
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    text-align: center;
+    width: 1.6em;
+}
+
+.segunda-fila div.debajo,
+.tercera-fila div.debajo,
+.cuarta-fila div.debajo {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.segunda-fila div.debajo p,
+.tercera-fila div.debajo p,
+.cuarta-fila div.debajo p {
+    display: flex;
+}
+
+.segunda-fila div.debajo p,
+.tercera-fila div.debajo p,
+.cuarta-fila div.debajo p {
+    position: sticky;
+    bottom: 0;
+}
+
+.segunda-fila div p.debajo,
+.tercera-fila div p.debajo {
+    position: absolute;
+    bottom: 0px;
+    margin-left: 0.5%;
+}
+
+.tercera-fila div p {
+    display: inline-block;
+    justify-content: space-between !important;
+}
+
+.cuarta-fila div.nacion p.debajo {
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.cuarta-fila {
+    height: 120px;
+}
+
+.cuarta-fila div {
+    padding: 0.4%;
+}
